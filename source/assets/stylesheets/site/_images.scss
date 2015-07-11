@@ -1,0 +1,14 @@
+.imgwrap{
+    margin: 1.0em 0 2.0em;
+    img{
+        max-width: 100%;
+    }
+
+    img.bordered{
+        outline: #999 solid 1px;
+    }
+    img.wide{
+        outline: #999 solid 1px;
+        width: 100%;
+    }
+}
