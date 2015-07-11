@@ -1,0 +1,27 @@
+---
+title: Middleman Onthestreet
+description: An index page for middleman-onthestreet
+layout: default
+---
+
+# This Middleman has got some opinions
+
+- <%= link_to "middleman-onthestreet Github", "https://github.com/dannguyen/middleman-onthestreet" %>
+
+- <%= link_to "Read Online Documentation for Middleman", "http://middlemanapp.com/" %>
+
+
+
+
+## Helpers
+
+~~~rb
+markdownify("> ##### Markdown Love!!\n> _Yeah!_")
+~~~
+
+<%= markdownify "> ##### Markdown Love!!\n> _Yeah!_" %>
+
+
+### Code helper
+
+<%= codepiece "/assets/javascripts/all.js" %>
