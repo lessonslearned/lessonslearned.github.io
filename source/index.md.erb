@@ -25,3 +25,63 @@ markdownify("> ##### Markdown Love!!\n> _Yeah!_")
 ### Code helper
 
 <%= codepiece "/assets/javascripts/all.js" %>
+
+
+### Media tags
+
+#### Media tag
+
+##### Image
+
+~~~ruby
+media_tag("http://placecage.com/g/400/300", :source_url => 'http://placecage.com', :caption => "Nic Cage")
+~~~
+
+<%= media_tag("http://placecage.com/g/400/300", :source_url => 'http://placecage.com', :caption => "Nic Cage", :source_name => "The PlaceCage")%>
+
+
+##### Youtube
+
+~~~ruby
+media_tag("https://www.youtube.com/watch?v=kl1RwhATTzA", :source_url => 'https://www.youtube.com/watch?v=kl1RwhATTzA')
+~~~
+
+
+<%= media_tag("https://www.youtube.com/watch?v=kl1RwhATTzA", :source_url => 'https://www.youtube.com/watch?v=kl1RwhATTzA')%>
+
+
+##### Vimeo
+
+~~~ruby
+media_tag("https://vimeo.com/36820781", :source_url => 'https://vimeo.com/36820781')
+~~~
+
+
+<%= media_tag("https://vimeo.com/36820781", :source_url => 'https://vimeo.com/36820781') %>
+
+
+
+
+
+
+#### Caption tag
+
+~~~ruby
+media_caption_tag("Hey this is a __caption__.", :source_url => "http://www.example.com")
+~~~
+
+Result:
+
+<%= media_caption_tag("Hey this is a __caption__.", :source_url => "http://www.example.com") %>
+
+
+
+##### Vimeo tag
+
+~~~ruby
+vimeo_tag("https://vimeo.com/36820781")
+~~~
+
+
+<%= vimeo_tag("https://vimeo.com/36820781")
+ %>

@@ -1,0 +1,47 @@
+title: "Social Security Administration Baby Names, Nationwide"
+description: |
+  A one-line description of whats going on.
+summary: |
+  Fuller text, allows for Markdown. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat debitis sint totam incidunt omnis iusto molestias tenetur quod commodi consequuntur dolorum aperiam saepe eaque deleniti, amet non quis tempora dolore.
+
+source:
+  creator: U.S. Social Security Administration
+  last_updated: 2015
+  format: CSV
+  urls:
+    homepage: http://www.ssa.gov/oact/babynames/limits.html
+    direct_download: http://www.ssa.gov/oact/babynames/names.zip
+    instructions: http://www.ssa.gov/oact/babynames/background.html
+  links:
+    - url: http://somethingelse.com
+      title: Hey whats up
+
+janitor:
+  links:
+    mirror: http://mirror.example.com/data.zip
+    tidied: http://www.example.com/data.zip
+  scripts:
+    - name: fetcher.py
+      description: Downloads it.
+    - name: tidy.py
+      description: Puts it all together.
+
+
+structure:
+  files:
+    description: |
+      A zip file containing a text file for every year.
+  schema:
+    fields:
+      - name: Name
+      - name: Sex
+      - name: Count
+      - name: Year
+        notes: This is derived from the filename
+
+
+articles:
+  - title: Something some journalist wrote
+    description: Blah bley blah blah
+    author: Yadayadayda
+    url: http://yadayadayada.com

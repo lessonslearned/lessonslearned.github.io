@@ -21,3 +21,4 @@
 # Ignore my stuff
 .s3_sync
 /_drafts
+/*.gem
