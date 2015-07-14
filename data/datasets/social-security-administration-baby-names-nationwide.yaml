@@ -4,14 +4,31 @@ description: |
 summary: |
   Fuller text, allows for Markdown. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat debitis sint totam incidunt omnis iusto molestias tenetur quod commodi consequuntur dolorum aperiam saepe eaque deleniti, amet non quis tempora dolore.
 
-source:
-  creator: U.S. Social Security Administration
+
+links:
+  - title: landing_page
+    url: http://www.ssa.gov/oact/babynames/limits.html
+  - title: direct_download
+    url: http://www.ssa.gov/oact/babynames/names.zip
+  - title: instructions
+    url: http://www.ssa.gov/oact/babynames/background.html
+
+
+features:
+  chrono:
+    precision: year
+  geo:
+    precision: state
+  political:
+    scope: federal
+
+
+  publisher: U.S. Social Security Administration
+
+
+publish_meta:
   last_updated: 2015
   format: CSV
-  urls:
-    homepage: http://www.ssa.gov/oact/babynames/limits.html
-    direct_download: http://www.ssa.gov/oact/babynames/names.zip
-    instructions: http://www.ssa.gov/oact/babynames/background.html
   links:
     - url: http://somethingelse.com
       title: Hey whats up
@@ -27,7 +44,7 @@ janitor:
       description: Puts it all together.
 
 
-structure:
+structure_meta:
   files:
     description: |
       A zip file containing a text file for every year.
@@ -40,7 +57,7 @@ structure:
         notes: This is derived from the filename
 
 
-articles:
+references:
   - title: Something some journalist wrote
     description: Blah bley blah blah
     author: Yadayadayda

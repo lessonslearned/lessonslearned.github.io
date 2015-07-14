@@ -1,0 +1,71 @@
+title: Vehicle Complaints
+description: |
+  Self-reported accidents and incidents in which failure of a vehicle or component is suspected.
+
+summary: |
+  Lots o data.
+
+publisher: National Highway Traffic Safety Administration
+
+links:
+  - title: interface
+    url: http://www-odi.nhtsa.dot.gov/owners/SearchSafetyIssues
+  - title: landing
+    url: http://www-odi.nhtsa.dot.gov/downloads/flatfiles.cfm
+  - title: direct
+    url: http://www-odi.nhtsa.dot.gov/downloads/folders/Complaints/FLAT_CMPL.zip
+  - title: instructions
+    url: http://www-odi.nhtsa.dot.gov/downloads/folders/Complaints/Import_Instructions.pdf
+  - title: layout
+    url: http://www-odi.nhtsa.dot.gov/downloads/folders/Complaints/CMPL.txt
+
+
+features:
+  chrono:
+    precision: year
+  geo:
+    precision: coordinates
+  political:
+    scope: federal
+
+
+references:
+  - title: Auto Regulators Dismissed Defect Tied to 13 Deaths
+    type: news-article
+    url: http://www.nytimes.com/2014/03/09/business/auto-regulators-dismissed-defect-tied-to-13-deaths.html
+    publisher: New York Times
+    date: 2014-03-08
+    description: |
+      Federal safety regulators received more than 260 complaints over the last 11 years about General Motors vehicles that suddenly turned off while being driven, but they declined to investigate the problem, which G.M. now says is linked to 13 deaths and requires the recall of more than 1.6 million cars worldwide.
+
+
+
+  - title: LA Times Vehicle Complaint Database
+    type: news-app
+    url: http://projects.latimes.com/nhtsa/
+    publisher: Los Angeles Times
+
+
+  - title: Scathing Audit Reveals NHTSA Is A Five-Star Government Clusterfuck
+    publisher: Jalopnik
+    url: http://jalopnik.com/scathing-audit-reveals-nhtsa-is-a-five-star-government-1713128651
+    retrieved_at: 2015-07-14T20:12:40.674051
+    description: |
+      The National Highway Traffic Safety Administration is supposed to be the government agency that protects us on the road. That stops us from getting into vehicular death traps. That saves our loved ones and ourselves from horrific ends. But it has failed, and the new government audit of its work is both damning and terrifying.
+    date: None
+    type: article
+    authors: ['On Gizmodo', 'On Adequate Man', 'On Kotaku', 'Michael Ballaban']
+    image: https://i.kinja-img.com/gawker-media/image/upload/s--f6aDDqGu--/c_fill,fl_progressive,g_north,h_358,q_80,w_636/1309764238405596199.jpg
+    icon: https://i.kinja-img.com/gawker-media/image/upload/s--w1bSCXke--/c_fill,fl_progressive,g_center,h_80,q_80,w_80/aqhdzcldymb9mkltfhxh.png
+
+  - title: Auto Safety Nominee Wants Finer Data Tools
+    site_name: New York Times
+    url: http://www.nytimes.com/2014/12/04/business/auto-safety-nominee-wants-finer-data-tools.html
+    retrieved_at: 2015-07-14T20:26:46.420051
+    description: |
+      Mark Rosekind, nominated to run the National Highway Traffic Safety Administration, testified before a mostly friendly Senate Commerce Committee.
+    date: 2014-12-04 00:00:00
+    type: article
+    authors: Matthew L. Wald
+    image: http://static01.nyt.com/images/icons/t_logo_291_black.png
+    icon: http://static01.nyt.com/favicon.ico

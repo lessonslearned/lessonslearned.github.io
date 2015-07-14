@@ -1,0 +1,23 @@
+---
+data_type: dataset
+---
+
+<%=dataset.description%>
+
+
+<h4>Links</h4>
+
+<% dataset.links.each do |link| %>
+<div><%=link_to "#{link.name}: #{link.url}", link.url %></div>
+<% end %>
+
+
+
+<h3>References</h3>
+
+<% dataset.references.each do |r| %>
+<div>
+  <h5><%= link_to r.title, r.url %></h5>
+  <div><%=r.description%></div>
+</div>
+<% end %>

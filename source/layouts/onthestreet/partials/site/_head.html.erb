@@ -10,10 +10,10 @@
      -->
      <meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" name="viewport">
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= page_title %></title>
-    <meta name="description" content="<%=page_description%>">
-    <meta name="author" content="<%=page_author%>">
-    <link rel="canonical" href="<%=page_url%>">
+    <title><%= meta_title %></title>
+    <meta name="description" content="<%=meta_description%>">
+    <meta name="author" content="<%=meta_author%>">
+    <link rel="canonical" href="<%=meta_url%>">
     <%= partial "/layouts/onthestreet/partials/site/head_og" %>
     <%= stylesheet_link_tag "application" %>
     <%= javascript_include_tag  "all" %>

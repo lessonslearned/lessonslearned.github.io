@@ -1,3 +1,6 @@
+require 'middleman-pry'
+require 'pry'
+require 'lib/dan_schema'
 # Kramdown
 set :markdown_engine, :kramdown
 set :markdown, :toc_levels => 1..3
@@ -16,6 +19,14 @@ puts config[:services]
 ## SETTINGS
 set :layout, :page
 
+
+
+data.datasets.each_pair do |slug, hsh|
+  puts slug
+  dataset = DanSchema::Dataset.new(hsh)
+  proxy "/datasets/#{slug}", "/templates/dataset.html", :locals => { :dataset => dataset},
+  :dynamic_page => {title: dataset.title, description: dataset.description }
+end
 
 
 # Build-specific configuration
