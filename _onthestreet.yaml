@@ -1,6 +1,6 @@
 site:
   title: 'Middleman On-the-Street'
-  url: 'http://onthestreetman.example.com'
+  baseurl: 'http://onthestreetman.example.com'
   description: |
     Middleman On-the-Street is an opinionated template for Middleman 3.x that contains some conveniences, a la Octopress for Jekyll, such as Bootstrap-Sass.
   author: Dan Nguyen
