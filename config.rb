@@ -1,7 +1,3 @@
-
-
-# Assets
-
 # Kramdown
 set :markdown_engine, :kramdown
 set :markdown, :toc_levels => 1..3
@@ -16,6 +12,10 @@ activate :syntax, :line_numbers => false
 
 activate :onthestreet_extension
 puts config[:services]
+
+## SETTINGS
+set :layout, :page
+
 
 
 # Build-specific configuration

@@ -1,11 +1,12 @@
 .site-header{
-  border-bottom: thin solid #ddd;
-  padding-bottom: 0.3em;
-  padding-top: 0.3em;
+
+  padding-bottom: 0.25em;
+  padding-top: 0.25em;
   background-color: inherit;
   margin-bottom: 0;
 
   &.navbar, &.navbar-fixed{
+    border-bottom: thin solid #ddd;
     min-height: 10px;
   }
 }
