@@ -27,7 +27,7 @@ features:
 
 
 publish_meta:
-  last_updated: 2015
+  updated_at: 2015
   format: CSV
   links:
     - url: http://somethingelse.com

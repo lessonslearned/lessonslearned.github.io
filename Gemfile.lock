@@ -1,4 +1,11 @@
 PATH
+  remote: ../dan_schema
+  specs:
+    dan_schema (0.0.1)
+      activesupport (~> 4.1, >= 4.1.0)
+      bundler (~> 1.1)
+
+PATH
   remote: ../middleman-onthestreet
   specs:
     middleman-onthestreet (0.0.1)
@@ -200,6 +207,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  dan_schema!
   middleman (~> 3.3.12)
   middleman-livereload (~> 3.1.0)
   middleman-onthestreet!

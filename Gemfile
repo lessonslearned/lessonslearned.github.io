@@ -22,3 +22,4 @@ gem "stringex"
 ## Middling stuff
 
 gem 'middleman-onthestreet', path: '../middleman-onthestreet'
+gem 'dan_schema', path: '../dan_schema'
